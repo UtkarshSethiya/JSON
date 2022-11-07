@@ -1,0 +1,56 @@
+.first{
+    color: blue;
+}
+.second{
+    color: pink;
+}
+.third{
+    color: green;
+}
+.table{
+    text-align: center !important;
+    justify-content: center !important;
+}
+.chart{
+    width: 100% !important;
+    height: 400px !important;
+}
+
+/*
+,
+          { "index":6,
+            "tab1" : "Tab 7",
+            "type":"tabs",
+            "components":[
+              {  "index":0,
+                 "name":"FIRST",
+              "class":" m-2 btn btn-primary",
+              "components":"nested child first"
+              
+            },
+            { "index":1, 
+              "name":"SECOND",
+              "class":" m-2 btn btn-secondary",
+              "components":"nested child second"
+            },
+            { "index":2,
+              "name":"THIRD",
+              "class":" m-2 btn btn-success",
+              "components":"nested child third"
+            },
+            {  "index":3,
+               "name":"FOURTH",
+              "class":" m-2 btn btn-danger",
+              "components":"nested child fourth"
+            }
+            ,
+            {  "index":4,
+               "name":"FIFTH",
+              "class":" m-2 btn btn-dark",
+              "components":"nested child fifth"
+            }
+
+              
+            ]
+            
+          }*/

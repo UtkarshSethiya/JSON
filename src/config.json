@@ -1,0 +1,281 @@
+{
+  
+    "page_title": "Test App",
+    "components": [
+
+      {
+        "type": "table",
+        "title": "Grouping Definitions",
+        "column": [
+          { "field": "make" },
+          { "field": "model"  },
+          { "field" : "price" }
+        ],
+        "row": [
+              {
+               
+                "make":"Toyota",
+                "model":"Fortuner",
+                "price":"$58000"
+
+              },
+              {
+                
+                "make":"BMW",
+                "model":"M3 GTR",
+                "price":"$88000"
+
+              },
+              {
+                
+                "make":" Suzuki",
+                "model":"Swift",
+                "price":"$10000"
+
+              }
+              ,
+              {
+                
+                "make":"Tata",
+                "model":"Indica",
+                "price":"$44000"
+
+              },
+              {
+                
+                "make":"Ford",
+                "model":"Ecosport",
+                "price":"$84000"
+
+              },
+              {
+                
+                "make":"Mahindra",
+                "model":"Bolero",
+                "price":"$64000"
+
+              },
+              {
+                
+                "make":"Nissan",
+                "model":"Sunny",
+                "price":"$56000"
+
+              }
+            ]
+ 
+          
+        
+      },
+
+      {
+        "type":"button",
+        "style":[
+          { "name":"FIRST",
+            "class":" m-2 btn btn-primary"
+          },
+          {  "name":"SECOND",
+            "class":" m-2 btn btn-secondary"
+          },
+          {"name":"THIRD",
+            "class":" m-2 btn btn-success"
+          },
+          { "name":"FOURTH",
+            "class":" m-2 btn btn-danger"
+          }
+          ,
+          { "name":"FIFTH",
+            "class":" m-2 btn btn-dark"
+          }
+        ],
+        "info":[
+          {
+            "tab1" : {}
+          },
+          {
+            "tab2" : {}
+          },
+          {
+            "tab" : {}
+          }
+        ]
+      },
+      {
+        "type":"form",
+        "info":[
+         
+          { "index":0,
+            "tab1" : "TAB 1",
+            "type":"table",
+            "components":[
+              {
+               
+                "make":"Trax",
+                "model":"Foner",
+                "price":"$58000"
+
+              },
+              {
+                
+                "make":"BMW",
+                "model":"M3 GTR",
+                "price":"$88000"
+
+              },
+              {
+                
+                "make":" Suzuki",
+                "model":"Swift",
+                "price":"$10000"
+
+              }
+              ,
+              {
+                
+                "make":"Tata",
+                "model":"Indica",
+                "price":"$44000"
+
+              }
+             
+            ]
+          },
+          {  "index":1,
+            "tab1" : "TAB 2",
+            "type":"content",
+            "components":[
+              {
+                "name":"This is Child 1 of TAB 2"
+              },
+              {
+                "name":"This is Child 2 of TAB 2"
+              }
+            ]
+          },
+          {  "index":2,
+            "tab1" : "TAB 3",
+            "type":"content",
+            "components":[
+              {
+                "name":"This is Child 1 of TAB 3"
+              }
+            ]
+          }
+          ,
+          { "index":3,
+            "tab1" : "TAB 4",
+            "type":"content",
+            "components":[
+              {
+                "name":"This is Child  of TAB 4"
+              }
+            ]
+          }
+          ,
+          { "index":4,
+            "tab1" : "TAB 5",
+            "type":"button",
+            "components":[
+              { "name":"FIRST",
+              "class":" m-2 btn btn-primary"
+            },
+            {  "name":"SECOND",
+              "class":" m-2 btn btn-secondary"
+            },
+            {"name":"THIRD",
+              "class":" m-2 btn btn-success"
+            },
+            { "name":"FOURTH",
+              "class":" m-2 btn btn-danger"
+            }
+            ,
+            { "name":"FIFTH",
+              "class":" m-2 btn btn-dark"
+            }
+
+              
+            ]
+            
+          },
+          { "index":5,
+            "tab1" : "TAB 6",
+            "type":"table",
+            "components":[
+              {
+               
+                "make":"Toyota",
+                "model":"Fortuner",
+                "price":"$58000"
+
+              },
+              {
+                
+                "make":"BMW",
+                "model":"M3 GTR",
+                "price":"$88000"
+
+              },
+              {
+                
+                "make":" Suzuki",
+                "model":"Swift",
+                "price":"$10000"
+
+              }
+              ,
+              {
+                
+                "make":"Tata",
+                "model":"Indica",
+                "price":"$44000"
+
+              },
+              {
+                
+                "make":"Ford",
+                "model":"Ecosport",
+                "price":"$84000"
+
+              },
+              {
+                
+                "make":"Mahindra",
+                "model":"Bolero",
+                "price":"$64000"
+
+              },
+              {
+                
+                "make":"Nissan",
+                "model":"Sunny",
+                "price":"$56000"
+
+              }
+              
+            ]
+            
+          }
+         
+        ]
+      },
+      {
+        "type":"chart",
+        
+        "info":[
+          {
+            "tab1" : {}
+          },
+          {
+            "tab2" : {}
+          },
+          {
+            "tab" : {}
+          }
+        ]
+      }
+    ]
+  }
+
+
+  
+  
